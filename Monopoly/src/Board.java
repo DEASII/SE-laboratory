@@ -27,7 +27,7 @@ public class Board {
         return squares.get(newIndex);
     }
 
-    public Square getStartSquare() {
-        return squares.get(0);
+    public Square getSquare(int num) {
+        return squares.get(num);
     }
 }
