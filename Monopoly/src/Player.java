@@ -13,7 +13,7 @@ public class Player {
         this.name = name;
         this.board = board;
         this.dice = new ArrayList<>(dice);
-        this.piece = new Piece(board.getStartSquare());
+        this.piece = new Piece(board.getSquare(0));
     }
 
     public int takeTurn() {
